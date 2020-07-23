@@ -1,0 +1,99 @@
+body{
+    background-image: url(背景.png);
+    background-attachment: fixed;
+
+}
+.navigation{
+    top: 0;
+    left: 0;
+	width: 100vw;
+	height: 50px;
+	z-index: 100;
+	background-color: #f7f7f3;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .5);
+    display: table;
+}
+.left{
+    font-family: 'Franklin Gothic Medium';
+    vertical-align: middle;
+    display: table-cell;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.right{
+    vertical-align: middle;
+    display: table-cell;
+    text-align: right;
+    padding-right: 30px;
+}
+#pic1{
+    width: 80vw;
+    height: auto;
+    margin-top: 100px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    margin-bottom: 100px;
+}
+header{
+    
+}
+.intro{
+    margin-top: 100px;
+    text-align: center;
+}
+.tunoda{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.imgtunoda{
+    padding-left: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.okamura{
+    display: inline-block;
+}
+.imgokamura{
+    padding-right: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+div.con{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 160px;
+}
+.pic3{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+ul.pic3{
+    list-style: none;
+}
+.inpic3{
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);
+}
+.wearimg{
+    border-radius: 10%;
+}
+footer{
+    text-align: center;
+}
+footer>ul{
+    list-style: none;
+}
+footer>ul>li{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+footer>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
