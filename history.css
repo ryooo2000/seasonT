@@ -1,0 +1,23 @@
+body{
+    background-image: url(歴史背景.png);
+    background-attachment: fixed;
+}
+main{
+    text-align: center;
+}
+main>div>ul{
+    list-style: none;
+}
+.his1{
+    
+}
+.his1>li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+li>img{
+    box-shadow: ;
+    width: 200px;
+    height: 200px;
+}
